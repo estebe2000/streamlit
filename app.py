@@ -3,6 +3,7 @@ from PIL import Image
 import io
 import pandas as pd
 
+
 # Méthode 1: Moyenne des composantes RGB
 def average_grayscale(image):
     pixels = image.convert('RGB')
@@ -307,6 +308,4 @@ elif st.session_state['page'] == 'Infos':
     # Embellissement avec des emojis ou d'autres éléments visuels
     st.markdown("---")
     st.markdown("🌟 **Amusez-vous bien et bonne programmation !** 🌟")
-
-    # fin
 
